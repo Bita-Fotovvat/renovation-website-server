@@ -8,7 +8,7 @@ app.use(cors());
 app.use(express.json());
 const PORT = process.env.PORT || 5050;
 app.get('/', (req, res) => {
-  res.send(`<h1>Welcome to my APP<h1>`);
+  res.send("Welcome!");
 });
 
 const requestRoutes = require('./routes/request-routes');
